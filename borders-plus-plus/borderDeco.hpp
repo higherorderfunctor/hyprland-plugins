@@ -28,7 +28,7 @@ class CBordersPlusPlus : public IHyprWindowDecoration {
     virtual std::string                getDisplayName();
 
   private:
-    SWindowDecorationExtents m_seExtents;
+    SBoxExtents m_seExtents;
 
     PHLWINDOWREF             m_pWindow;
 
@@ -39,3 +39,4 @@ class CBordersPlusPlus : public IHyprWindowDecoration {
 
     double                   m_fLastThickness = 0;
 };
+

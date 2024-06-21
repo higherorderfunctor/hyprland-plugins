@@ -37,7 +37,7 @@ class CHyprBar : public IHyprWindowDecoration {
     void                               setHidden(bool hidden);
 
   private:
-    SWindowDecorationExtents m_seExtents;
+    SBoxExtents              m_seExtents;
 
     PHLWINDOWREF             m_pWindow;
 
